@@ -15,3 +15,12 @@ This is a very old project, from my time at the university in 2012.
 - PostgreSQL
 - JasperReport
 
+### Screenshots
+<p float="left">
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/home.png" width="80%" height="80%" />
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/login.png" width="80%" height="80%" />
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/homeloggedin.png" width="80%" height="80%" />
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/notes.png" width="80%" height="80%" />
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/reports.png" width="80%" height="80%" />
+<img src="https://github.com/CamiloDelReal/online-library-system/blob/main/screenshots/accounts.png" width="80%" height="80%" />
+</p>
