@@ -1,0 +1,65 @@
+
+#notesViewer .label{
+	-fx-font-family: "Calibri";
+	-fx-text-fill: rgb(232, 232, 232);
+	-fx-font-size: 13;
+	-fx-font-weight: bold;
+}
+
+#notesViewer .title{	
+	-fx-font-size: 23;
+	-fx-padding: 25 0 10 55;
+}
+
+#notesViewer #note .label{
+	-fx-text-fill: rgb(0, 0, 0);
+	-fx-font-weight: lighter;
+}
+#notesViewer #note .title{
+	-fx-font-weight: bold;
+	-fx-font-size: 13;
+	-fx-padding: 0;
+}
+
+#buttonsPane{
+	-fx-padding: 10 0 20 0;
+}
+
+#notesViewer .list-view{
+	-fx-base: black;
+	-fx-border-width: 1 0 0 0;
+	-fx-border-color: black;
+	-fx-background-color: null;
+}
+#notesViewer .list-cell{
+	-fx-background-color: null;
+}
+
+#notesViewer .list-cell:selected{
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-background,-7%) 0%, derive(-fx-background,-34%) 100%);
+}
+#notesViewer .list-cell:hover{
+    -fx-background-color: rgba(204, 227, 244, 0.2);
+}
+
+#notesViewer .toggle-button{
+	-fx-base: #73BEE1;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-inner-border: linear-gradient(
+        to bottom,
+        derive(-fx-color, 35%) 0%,
+        derive(-fx-color, -6%) 100%
+    );
+    -fx-text-fill: #444444;
+    -fx-padding: 2 10 2 10;
+}
+#notesViewer .toggle-button:selected{
+	-fx-text-fill: rgb(232, 232, 232);
+}
+
+#dialogDeleteNote #note .title{
+	-fx-font-weight: bold;
+	-fx-font-size: 13;
+	-fx-padding: 0;
+}

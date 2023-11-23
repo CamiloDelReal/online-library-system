@@ -1,0 +1,36 @@
+
+#dialogRoot{
+	-fx-background-color: rgba(0,0,0,0.4);
+}
+
+#authenticationDialog{
+	-fx-background-color: linear-gradient(to bottom, #FFFFFF, #BDBDBD);
+	-fx-background-image:url("../icons/dialogBackground.png");
+	-fx-background-image-position: left top;
+	-fx-background-image-repeat: no-repeat;
+	-fx-background-radius: 6;
+	-fx-border-radius: 6;
+	-fx-effect: dropshadow( three-pass-box , white , 20, 0 , 0 , 0 );
+}
+
+#authenticationDialog .title{
+	-fx-font-family: "System";
+	-fx-font-size: 20;
+	-fx-font-weight: bold;
+}
+
+#authenticationDialog .button{
+	-fx-base: #0093FF;
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#authenticationDialog .lblValidation{
+	-fx-text-alignment: center;
+	-fx-padding: 1 10 1 10;
+	-fx-background-radius: 3;
+	-fx-background-color: transparent;
+}
+
+#authenticationDialog .lblValidationIncorrect{
+	-fx-background-color: linear-gradient(to bottom, orange, red);
+}

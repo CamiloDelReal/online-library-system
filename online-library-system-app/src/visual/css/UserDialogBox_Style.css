@@ -1,0 +1,113 @@
+
+#userDialogBox{
+	-fx-padding: 5 15 15 15;
+	-fx-background-color: linear-gradient(to bottom, #FFFFFF, #BDBDBD);
+	/*-fx-background-color: white;*/
+	-fx-background-radius: 6;
+	-fx-border-radius: 6;
+	-fx-effect: dropshadow( three-pass-box , white , 20, 0 , 0 , 0 );
+}
+
+#userDialogBox .label{
+	-fx-text-fill: rgba(0, 0, 0, 1);
+	-fx-font-size: 13;
+}
+
+#userDialogBox .label .bold{
+	-fx-font-size: 14;	
+}
+
+#userDialogBox .title{
+	-fx-font-size: 23;
+	-fx-font-weight: bold;
+}
+
+#userDialogBox .button{
+	-fx-base: #0093FF;
+	-fx-text-fill: rgb(255,255,255);
+	-fx-font-size: 12px;
+}
+
+#userDialogBox .lblAvatar{
+	-fx-text-fill: rgba(0, 0, 0, 0.9);
+	-fx-font-family: "Calibri";
+	-fx-font-size: 11;
+}
+
+#userDialogBox .hyperlink{
+	-fx-text-fill: rgba(0, 0, 0, 0.9);
+	-fx-font-family: "Calibri";
+	-fx-font-size: 11;
+}
+#userDialogBox .hyperlink:pressed{
+	-fx-border-width: 0;
+}
+#userDialogBox .hyperlink:visited{
+	-fx-text-fill: rgba(0, 0, 0, 0.9);
+	-fx-border-width: 0;
+}
+
+#userDialogBox .text-field{
+	-fx-border-width: 1;
+	-fx-border-color: rgba(0, 0, 0, 0.3);
+	-fx-border-radius:3;
+}
+
+#userDialogBox .toggle-button{
+	-fx-font-size: 12;
+}
+
+#userDialogBox .first{
+	-fx-background-radius: 5 0 0 5;
+}
+#userDialogBox .last{
+	-fx-background-radius: 0 5 5 0;
+}
+
+
+.tab-header-background {
+	-fx-background-color: transparent;
+}
+
+.tab-content-area{
+	-fx-background-color: transparent;
+}
+
+#privilegeData{
+	-fx-text-fill: rgb(232,232,232);
+	-fx-font-family: Calibri;
+}
+
+#privilegeData .label{
+	-fx-font-size: 14;
+}
+
+#privilegeData .title{
+	-fx-padding: 20 0 5 105;
+	-fx-font-size: 23;
+}
+
+#privilegeData .header{
+	-fx-font-size: 19;
+	-fx-padding: 0 0 0 10;
+}
+
+#privilegeData .endding{
+	-fx-padding: 0 0 0 7;
+}
+
+#privilegeData .toggle-button{
+	-fx-padding: 0;
+	-fx-background-color: transparent;
+	-fx-font-family: Calibri;
+	-fx-font-size: 14;
+	-fx-text-fill: rgb(255,0,0);
+	-fx-effect: dropshadow( three-pass-box , rgba(255, 255, 255, 0.5) , 2, 0.2 , 0, 0 );
+	-fx-cursor: hand;
+}
+
+#privilegeData .toggle-button:selected{
+	-fx-text-fill: rgb(0,255,0);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 2, 0.2 , 0 , 0 );
+}
+

@@ -1,0 +1,57 @@
+#dialogo{
+	-fx-background-color: black, white, linear-gradient(rgb(250,250,250), rgb(230,230,230));
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 15, 14, 13;
+    -fx-padding: 15;
+    -fx-effect: dropshadow( three-pass-box , black , 20, 0 , 0 , 0 );
+    -fx-font-family: Calibri;
+    -fx-font-size: 14;
+}
+
+#dialogo .button{
+	-fx-padding: 3 0 0 0;
+	-fx-base: #0093FF;
+	-fx-text-fill: rgb(255,255,255);
+}
+
+#dataDialog{
+	-fx-padding: 5 15 15 15;
+	-fx-background-color: linear-gradient(to bottom, #FFFFFF, #BDBDBD);
+	-fx-background-radius: 6;
+	-fx-border-radius: 6;
+	-fx-effect: dropshadow( three-pass-box , white , 20, 0 , 0 , 0 );
+}
+
+#dataDialog .label{
+	-fx-text-fill: rgba(0, 0, 0, 1);
+	-fx-font-size: 13;
+}
+
+#dataDialog .bold{
+	-fx-font-size: 14;	
+}
+
+#dataDialog .title{
+	-fx-font-size: 18;
+	-fx-font-weight: bold;
+}
+
+#dataDialog .title2{
+	-fx-font-size: 11;
+}
+
+#dataDialog .button{
+	-fx-base: #0093FF;
+	-fx-text-fill: rgb(255,255,255);
+	-fx-font-size: 12px;
+}
+
+#dataDialog .toggle-button{
+	-fx-background-radius: 0;
+}
+#dataDialog .first{
+	-fx-background-radius: 6 0 0 6;
+}
+#dataDialog .last{
+	-fx-background-radius: 0 6 6 0;
+}

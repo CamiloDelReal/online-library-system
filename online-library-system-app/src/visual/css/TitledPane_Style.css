@@ -1,0 +1,29 @@
+
+#titledPane{
+	-fx-background-color: rgba(0, 0, 0, 0.3), linear-gradient(to bottom, #333232 ,  #1F1F1F );
+	-fx-background-insets: 0, 0 0 25 0;
+}
+
+#titledPane .userPicture{
+	-fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 2, 0.5 , 0 , 0 );
+}
+
+#titledPane .userName{
+	-fx-text-fill: white;
+	-fx-background-color: null;
+	-fx-padding: 0 3 0 3;
+	-fx-border-color: rgba(0, 0, 0, 0.7) transparent rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7);
+	-fx-border-radius: 3 0 0 3;
+}
+
+#titledPane #btnUserLogout{
+	-fx-background-insets: 0 0 2 0;
+	-fx-background-color: null;
+	-fx-background-radius: 0 3 3 0;
+	-fx-border-color: rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7) transparent;
+	-fx-border-radius: 0 3 3 0;
+}
+#titledPane #btnUserLogout:hover{
+	-fx-background-radius: 0 3 3 0;
+	-fx-background-color: rgba(255, 255, 255, 0.1);
+}

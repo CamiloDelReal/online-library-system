@@ -1,0 +1,247 @@
+
+#usersCountViewer .vbox{
+	-fx-padding: 0;
+	-fx-background-color: #1b1b1b;
+}
+
+#usersCountViewer .toggle-button {
+    -fx-background-color: rgba(27, 27, 27, 0.8);
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+}
+#usersCountViewer .menuAcademic {
+    -fx-font-size: 12;
+}
+
+#usersCountViewer .toggle-button:selected {
+	-fx-background-insets: 0, 0;
+    -fx-background-color: #1b1b1b, rgba(31,179,255,0.28);
+    /*-fx-background-color: #1b1b1b, rgba(115, 190, 225, 0.28);*/
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-text-fill: #92bcd1;
+}
+
+#toolbar{
+	-fx-background-color: transparent;
+}
+#spacerInToolbar{
+	-fx-background-color: rgba(27, 27, 27, 0.8);
+}
+
+#generalData{
+	-fx-padding: 0 0 15 0;
+	-fx-text-fill: rgb(232,232,232);
+	-fx-font-family: Calibri;
+	/*-fx-border-color: transparent transparent rgba(232,232,232, 0.6) transparent;*/
+	-fx-border-style: dashed;
+}
+
+#teacherData, #studentData{
+	-fx-text-fill: rgb(232,232,232);
+	-fx-font-family: Calibri;
+}
+
+#usersCountViewer .label{
+	/*-fx-background-color: rgba(255, 0, 0, 0.4);*/
+	-fx-font-size: 14;
+}
+
+#usersCountViewer .label .bold{
+	-fx-font-size: 15;	
+}
+
+#usersCountViewer .title{
+	-fx-font-size: 23;
+	-fx-font-weight: bold;
+}
+
+#avatar{
+	-fx-background-color: #1b1b1b;
+}
+
+#usersCountViewer .lblAvatar{
+	-fx-text-fill: rgba(255, 255, 255, 0.9);
+	-fx-font-family: "Calibri";
+	-fx-font-size: 11;
+}
+
+#usersCountViewer .hyperlink{
+	-fx-text-fill: rgba(255, 255, 255, 0.9);
+	-fx-font-family: "Calibri";
+	-fx-font-size: 11;
+}
+#usersCountViewer .hyperlink:pressed{
+	-fx-border-width: 0;
+}
+#usersCountViewer .hyperlink:visited{
+	-fx-text-fill: rgba(255, 255, 255, 0.9);
+	-fx-border-width: 0;
+}
+
+#usersCountViewer .choice-box{
+	-fx-font-family: Calibri;
+}
+
+#usersCountViewer .userOpButtons Text{
+	-fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.6) , 0, 0.0 , 0 , 1 );
+}
+
+#userItem .label{
+	-fx-font-family: "Calibri";
+	-fx-font-size: 12;
+	-fx-background: #0093ff;
+	-fx-text-fill: ladder( -fx-background, -fx-light-text-color 50%, -fx-mid-text-color 51%);
+}
+
+#otherUsersPane .scroll-pane{
+	-fx-base: black;
+}
+
+#otherUsersPane #generalData .text-field, #otherUsersPane #generalData .text-area{
+	-fx-border-width: 1;
+	-fx-border-color: black;
+	-fx-border-radius: 3; 
+}
+
+#otherUsersPane .list-view{
+	-fx-base: black;
+	-fx-border-width: 1;
+	-fx-border-color: black;
+	-fx-border-radius: 3; 
+	-fx-background-radius: 3;
+}
+
+#listViewUser{
+	-fx-base: black;
+	-fx-background-color: null;
+}
+#listViewUser .list-cell{
+	-fx-background-color: null;
+}
+#listViewUser .list-cell:selected, #listViewUser .list-cell:selected:hover{
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-background,-7%) 0%, derive(-fx-background,-34%) 100%);
+}
+#listViewUser .list-cell:hover{
+    -fx-background-color: rgba(204, 227, 244, 0.2);
+}
+
+.table-view{
+	-fx-background-color: transparent;
+	/*-fx-base: black;*/
+	-fx-text-fill: rgb(232,232,232);
+	-fx-title-fill: white;
+}
+
+.table-view .table-column{
+	-fx-background-color: blue;
+}
+
+.table-view .table-cell{
+	-fx-background-color: transparent;
+	-fx-text-fill: rgb(232,232,232);
+	-fx-border-color: transparent transparent rgba(232, 232, 232, 0.3) transparent;
+}
+.table-view .table-row-cell{
+	-fx-background-color: transparent;
+	-fx-text-alignment: center;
+}
+.table-view .table-row-cell:selected:focused, .table-view:row-selection .table-row-cell:filled:hover:selected {
+	-fx-background: #0093ff;
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-background,-7%) 0%, derive(-fx-background,-34%) 100%);
+    -fx-text-fill: ladder( -fx-background, -fx-light-text-color 50%, -fx-mid-text-color 51%);
+}
+
+.table-view:row-selection .table-row-cell:filled:hover { 
+    -fx-background-color: rgba(204, 227, 244, 0.2);
+}
+
+
+#academicDataPane .title{
+	-fx-font-size: 20;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgb(232,232,232);
+}
+
+#academicDataPane .userOpButtons{
+	-fx-base: #73BEE1;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+    -fx-inner-border: linear-gradient( to bottom, derive(-fx-color, 35%) 0%, derive(-fx-color, -6%) 100%)
+    				  transparent 
+    				  linear-gradient( to bottom, derive(-fx-color, 35%) 0%, derive(-fx-color, -6%) 100%)
+    				  transparent;
+    -fx-text-fill: #444444;
+    -fx-padding: 5 10 5 10;
+
+}
+
+#academicDataPane .userOpButtons Text{
+	-fx-effect: dropshadow( one-pass-box , rgba(255,255,255,0.6) , 0, 0.0 , 0 , 1 );
+}
+
+#spacerToggles{
+	-fx-background-color: rgba(27, 27, 27, 0.8);
+}
+
+#privilegeUserPane{
+	-fx-text-fill: rgb(232,232,232);
+	-fx-font-family: Calibri;
+}
+
+#privilegeUserPane .label{
+	-fx-font-size: 14;
+}
+
+#privilegeUserPane .title{
+	-fx-padding: 15 0 5 100;
+	-fx-font-size: 23;
+}
+
+#privilegeUserPane .header{
+	-fx-font-size: 19;
+	-fx-padding: 0 0 0 10;
+}
+
+#privilegeUserPane .endding{
+	-fx-padding: 0 0 0 7;
+}
+
+#privilegeUserPane .red{
+	-fx-text-fill: rgb(255,0,0);
+	-fx-effect: dropshadow( three-pass-box , rgba(255, 255, 255, 0.5) , 2, 0.2 , 0, 0 );
+}
+#privilegeUserPane .green{
+	-fx-text-fill: rgb(0,255,0);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 2, 0.2 , 0 , 0 );
+}
+
+#otherUsersPane #SearchPeople .text-field {
+    -fx-background-color: white;
+    -fx-background-insets: 1;
+    -fx-background-radius: 15;
+    -fx-padding: -9 8 -9 0;
+    -fx-border-image-source: url("../icons/searchBorder.png");
+    -fx-border-image-slice: 12 12 12 22 fill;
+    -fx-border-image-width: 12 12 12 22;
+    -fx-border-image-repeat: stretch; 
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: gray;
+}
+#otherUsersPane #SearchPeople .text-field:focused {
+    -fx-background-color:  transparent, white; /*esto quita completamente el borde del focus */
+    -fx-background-insets: -1.4, 1;
+    -fx-background-radius: 14.4;
+}
+#otherUsersPane #SearchPeople .button {
+    -fx-background-color: null;
+    -fx-background-image: url("../icons/searchClear.png");
+    -fx-background-insets: 1;
+}
+#otherUsersPane #SearchPeople .button:hover {
+    -fx-background-color: null;
+    -fx-background-image: url("../icons/searchClearHover.png");
+    -fx-background-insets: 1;
+}

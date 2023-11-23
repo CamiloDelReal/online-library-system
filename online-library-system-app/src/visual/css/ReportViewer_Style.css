@@ -1,0 +1,16 @@
+
+#reportViewer{
+	-fx-text-fill: rgb(232,232,232);
+	-fx-font-family: Calibri;
+	-fx-font-size: 13;
+}
+
+#reportViewer .title{
+	-fx-font-size: 23;
+	-fx-font-weight: bold;
+	-fx-padding: 25 0 10 50;
+}
+
+#reportViewer #scrollPane{
+	-fx-background-color: null;
+}
